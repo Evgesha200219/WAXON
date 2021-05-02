@@ -114,10 +114,29 @@ h1 {
     background: #988574;
     border-radius: 3px;
     color: white;
+    cursor: pointer;
+}
+.btn:hover {
+    color: #988574;
+    background: white;
 }
 .started {
     padding: 19px 40px;
     margin-top: 39px;
     margin-bottom: 312px;
 }
+.fas {
+    font-size: 10px;
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: 900;
+}
+.fas:hover {
+    font-weight: 1;
+}
+.slider {
+    padding-top: 3px;
+    padding-bottom: 3px;
+    margin-bottom: 49px;
+}
+
 
