@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-wrap {
+.wrap {
     width: 1280px;
     margin: 0 auto;
 }
@@ -25,14 +25,99 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
     font-style: normal;
+    color: white;
+}
+header {
+    background-image: url(img/header.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.header-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.head {
+    display: flex;
+    justify-content: space-between;
+}
+.logo {
+    display: flex;
+    margin-right: 352px;
+}
+.logo-img {
+    margin-top: 39px;
+}
+.waxon {
+    font-weight: normal;
+    font-size: 34px;
+    line-height: 40px;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 46px;
+}
+.nav-links {
+    display: flex;
+    justify-content: space-between;
+    width: 739px;
+    margin-top: 54px;
+}
+.cart {
+    margin-right: 30px;
+}
+.link {
+    text-decoration: none;
+    color: white;
+    margin-right: 24px;
+    font-size: 14px;
+    line-height: 17px;
+}
+.last-link {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    line-height: 17px;
+}
+.link:hover, 
+.last-link:hover {
+    color:  #C7B299;
+}
+.slogan {
+    margin-top: 315px;
+    width: 569px;
+    
+}
+.slogan-desc {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 42px;
+    font-style: normal;
+    text-align: center;
 }
 h1 {
     font-family: 'Raleway', sans-serif;
     font-weight: 600;
     font-size: 52px;
+    margin-bottom: 4px;
+    width: 100%;
+}
+.text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
 }
 .btn {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
+    background: #988574;
+    border-radius: 3px;
+    color: white;
+}
+.started {
+    padding: 19px 40px;
+    margin-top: 39px;
+    margin-bottom: 312px;
 }
 
