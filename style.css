@@ -27,6 +27,52 @@ body {
     font-style: normal;
     color: white;
 }
+h1 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 52px;
+    margin-bottom: 4px;
+    width: 100%;
+}
+h2 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    color: #555555;
+}
+h3 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 26px;
+    color: #555555;
+    text-align: center;
+}
+.text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center; 
+}
+.btn {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    background: #988574;
+    border-radius: 3px;
+    color: white;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 16px;
+}
+.btn:hover {
+    color: #988574;
+    background: white;
+}
+/*HEADER*/
 header {
     background-image: url(img/header.png);
     background-repeat: no-repeat;
@@ -94,43 +140,7 @@ header {
     font-style: normal;
     text-align: center;
 }
-h1 {
-    font-family: 'Raleway', sans-serif;
-    font-weight: 600;
-    font-size: 52px;
-    margin-bottom: 4px;
-    width: 100%;
-}
-h2 {
-    font-family: 'Raleway', sans-serif;
-    font-weight: 600;
-    font-size: 30px;
-    line-height: 35px;
-    text-align: center;
-    color: #555555;
-}
-.text {
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 20px;
-    text-align: center;
-}
-.btn {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    background: #988574;
-    border-radius: 3px;
-    color: white;
-    cursor: pointer;
-    text-transform: uppercase;
-    font-size: 14px;
-    line-height: 16px;
-}
-.btn:hover {
-    color: #988574;
-    background: white;
-}
+
 .started {
     padding: 19px 40px;
     margin-top: 39px;
@@ -149,6 +159,35 @@ h2 {
     padding-bottom: 3px;
     margin-bottom: 49px;
 }
+/* SERVICES*/
+.services {
+    background: #FFFFFF;
+}
+.services-items {
+    display: flex;
+    justify-content: center;
+    padding-top: 90px;
+    padding-bottom: 87px;
+}
+.serv-text {
+    color: #000000;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    margin-top: 20px;
+    margin-bottom: 29px;
+}
+.serv-box {
+    width: 270px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#serv {
+    margin-right: 30px;
+}
+
+
 /* WAXON-REALIZ*/
 .waxon-realiz {
     background: #E5E5E5;
