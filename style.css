@@ -101,15 +101,6 @@ h1 {
     margin-bottom: 4px;
     width: 100%;
 }
-h3 {
-    font-family: 'Raleway', sans-serif;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 22px;
-    line-height: 26px;
-    color: #555555;
-    text-align: center;
-}
 .text {
     font-style: normal;
     font-weight: normal;
@@ -147,31 +138,5 @@ h3 {
     padding-bottom: 3px;
     margin-bottom: 49px;
 }
-.services {
-    background: #FFFFFF;
-    padding-top: 84px;
-    padding-bottom: 88px;
-}
-.design-text {
-    font-weight: 300;
-    font-size: 14px;
-    line-height: 17px;
-    text-align: center;
-    color: #000000;
-    margin-top: 20px;
-}
-.services-items {
-    display: flex;
-    justify-content: space-between;
-
-}
-.serv-item, .services-item {
-    width: 270px;
-    margin-right: 30px;
-}
-.services-item {
-    margin-right: 0;
-}
-
 
 
