@@ -75,6 +75,7 @@ h3 {
 }
 /*HEADER*/
 header {
+    background: #FFFFFF;
     background-image: url(img/header.png);
     background-repeat: no-repeat;
     background-position: center;
@@ -94,7 +95,12 @@ header {
 }
 .logo-img {
     margin-top: 39px;
+    transition-duration: 1s;
 }
+.logo-img:hover {
+    transform: rotatey(180deg);
+
+   }
 .waxon {
     font-weight: normal;
     font-size: 34px;
@@ -160,6 +166,7 @@ header {
     padding-bottom: 3px;
     margin-bottom: 49px;
 }
+
 /* SERVICES*/
 .services {
     background: #FFFFFF;
@@ -192,9 +199,17 @@ header {
     margin-bottom: 30px;
     transition-duration: 0.3s;
 }
-.serv-icon:hover {
+.serv-box:hover .serv-icon {
     fill:  #C7B299;
 }
+.serv-box:hover .serv-title {
+    color: #C7B299;
+}
+.line {
+    fill:  #F1EEE9;
+    transition-duration: 0.3s;
+}
+
 
 
 /* WAXON-REALIZ*/
