@@ -117,12 +117,20 @@ header {
 .cart {
     margin-right: 30px;
 }
+.icons {
+    fill: #FFFFFF;
+    transition-duration: 0.3s;
+}
+.icons:hover {
+    fill: #C7B299;
+}
 .link {
     text-decoration: none;
     color: white;
     margin-right: 24px;
     font-size: 14px;
     line-height: 17px;
+    transition-duration: 0.3s;
 }
 .last-link {
     text-decoration: none;
@@ -137,7 +145,6 @@ header {
 .slogan {
     margin-top: 315px;
     width: 569px;
-    
 }
 .slogan-desc {
     font-family: 'Raleway', sans-serif;
@@ -201,9 +208,14 @@ header {
 }
 .serv-box:hover .serv-icon {
     fill:  #C7B299;
+    transform: scale(1.5);
 }
 .serv-box:hover .serv-title {
     color: #C7B299;
+    cursor: default;
+}
+.serv-text:hover {
+    cursor: default;
 }
 .line {
     fill:  #F1EEE9;
