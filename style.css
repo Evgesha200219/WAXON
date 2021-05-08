@@ -277,6 +277,7 @@ span {
 /* LATEST*/
 .latest {
     background: #FFFFFF;
+    padding-bottom: 33px;
 }
 .latest-cont {
     display: flex;
@@ -320,23 +321,35 @@ span {
 .latest-items {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
 }
 .latest-block {
     width: 370px;
+    background: #FBFAF8;
+    list-style: none;
+    padding-bottom: 26px;
 }
-.latest-block h3 {
-    font-family: 'Raleway', sans-serif;
+.item-title {
+    margin-top: 26px;
+    margin-bottom: 8px;
     font-weight: 500;
     font-size: 20px;
     line-height: 23px;
     color: #C7B299;
+    text-align: left;
 }
-.latest-block p {
-    font-family: 'Montserrat', sans-serif;
+.item-text {
     font-weight: 300;
     font-size: 14px;
     line-height: 17px;
     color: #D1D1D1;
+    text-align: left;
+}
+.last-btn {
+    align-self: center;
+    padding: 18px 46px;
+    margin-top: 47px;
 }
 
 
