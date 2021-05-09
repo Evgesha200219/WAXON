@@ -492,10 +492,111 @@ span {
 }
 .mobile-items {
     list-style: none;
+    margin-left: 131px;
 }
 .mobile-desc {
     align-self: center;
 }
+
+/*COUNTERS*/
+.counters {
+    background: radial-gradient(94.87% 15543.47% at 4.58% 100%, #211B19 0%, #4E3326 100%);
+}
+.counters-list {
+    padding-top: 36px;
+    padding-bottom: 36px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+.counters-box {
+    text-align: center;
+    margin-right: 70px;
+}
+.number {
+    font-size: 48px;
+    line-height: 59px;
+    color: #FFFFFF;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.desc {
+    font-size: 14px;
+    line-height: 17px;
+    color: #C7B299;
+    margin-bottom: 15px;
+}
+/*POSTS*/
+.posts {
+    background: #FFFFFF;
+}
+.posts-content {
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+}
+.posts-text {
+    line-height: 28px;
+    color: #8C8C8C;
+    width: 770px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    align-self: center;
+}
+.posts-items {
+    display: flex;
+    list-style: none;
+}
+.card-image {
+    width: 100%;
+    display: block;
+}
+.posts-img {
+    position: relative;
+}
+.data-overlay {
+    position: absolute;
+    top: 17px;
+    left: 29px;
+    width: 50px;
+    height: 58px;
+    background: black;
+    text-align: center;
+}
+.data {
+    font-size: 30px;
+    line-height: 37px;
+    background: #363636;
+    border-radius: 3px;
+    padding: 1px 6px;
+}
+.month {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    background: #242424;
+    border-radius: 0px 0px 3px 3px;
+    padding: 6px 13px;
+}
+.card-info {
+    padding: 31px 36px 22px 23px;
+}
+.card-info h3 {
+    text-align: left;
+    margin-bottom: 22px;
+}
+.card-text {
+    text-align: left;
+    font-size: 14px;
+    line-height: 22px;
+    color: #000000;
+    margin-bottom: 17px;
+    
+}
+
+
+
 
 
 
