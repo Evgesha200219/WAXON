@@ -72,6 +72,17 @@
                 <a href="#"><i class="fas fa-circle"></i></a>
                 <a href="#"><i class="fas fa-circle"></i></a>
             </div>
+            <button class="slider-btn header-left">
+                <svg width="40" height="73" viewBox="0 0 40 73" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M38.03 72.98L0 36.5L38.03 0.0200195L40 2.02002L4.07 36.5L40 70.98L38.03 72.98Z" />
+                </svg>
+            </button>
+            <button class="slider-btn header-right">
+                <svg width="40" height="73" viewBox="0 0 40 73" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M1.97 72.96L40 36.48L1.97 0L0 2L35.93 36.48L0 70.96L1.97 72.96Z" />
+                </svg>
+
+            </button>
         </div>
     </header>
     <main class="main">
@@ -398,17 +409,18 @@
                         </div>
                     </li>
                 </ul>
-                <button class="left">a</button>
-                <button class="right"></button>
+                <div class="posts-btn">
+                    <button class="left"><i class="posts-left fas fa-chevron-circle-left"></i></button>
+                    <button><i class="right fas fa-chevron-circle-right"></i></button>
+                </div>
             </div>
         </section>
 
         <section class="partners">
-            <img src="img/partners.png" alt="photo">
-            <div class="wrap icons">
-                <img src="img/partner1.png" alt="logo">
-                <img src="img/partner2.png" alt="logo">
-                <img src="img/partner3.png" alt="logo">
+            <div class="wrap partners-img">
+                <img class="partners-logo" src="img/partner1.png" alt="logo">
+                <img class="partners-logo" src="img/partner2.png" alt="logo">
+                <img class="partners-logo" src="img/partner3.png" alt="logo">
                 <img src="img/partner4.png" alt="logo">
             </div>
         </section>
@@ -416,31 +428,45 @@
     </main>
 
     <footer class="footer">
-        <div class=" wrap footer-blocks">
-
-            <div class="about">
-                <div class="logo">
-                    <img class="logo-img" src="#" alt="">
-                    <p class="waxon"></p>
+        <div class="wrap footer-blocks">
+            <div class="block">
+                <div class="footer-logo">
+                    <svg class="footer-logo-img" width="63" height="55" viewBox="0 0 63 55" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M36.7508 10.6928H26.2492L31.495 19.8594L36.7508 10.6928ZM24.9402 11.4608L19.6844 20.6275H30.186L24.9402 11.4608ZM43.3156 20.6275L38.0598 11.4608L32.814 20.6275H43.3156ZM32.814 22.1536L38.0598 31.3203L43.3156 22.1536H32.814ZM19.6844 22.1536L24.9402 31.3203L30.186 22.1536H19.6844ZM13.1196 32.0783H23.6213L18.3754 22.9217L13.1196 32.0783ZM49.8704 32.0783L44.6246 22.9217L39.3787 32.0783H49.8704ZM31.495 0L26.2492 9.16667H36.7508L31.495 0ZM44.6246 42.7711L49.8704 33.6144H39.3787L44.6246 42.7711ZM18.3754 42.7711L23.6213 33.6144H13.1196L18.3754 42.7711ZM6.56479 43.5392H17.0565L11.8106 34.3725L6.56479 43.5392ZM56.4352 43.5392L51.1894 34.3725L45.9335 43.5392H56.4352ZM45.9335 45.0653L51.1894 54.232L56.4352 45.0653H45.9335ZM32.814 45.0653L38.0598 54.232L43.3156 45.0653H32.814ZM11.8106 54.232L17.0565 45.0653H6.56479L11.8106 54.232ZM0 55H10.5017L5.24584 45.8333L0 55ZM26.2492 55H36.7508L31.495 45.8333L26.2492 55ZM39.3787 55H49.8704L44.6246 45.8333L39.3787 55ZM57.7542 45.8333L52.4983 55H63L57.7542 45.8333Z"
+                            fill="white" />
+                    </svg>
+                    <p class="footer-waxon">Waxom</p>
                 </div>
-                <p class="excerpt"></p>
-                <div class="link">
-                    <p></p>
-                    <a href="#"></a>
-                </div>
+                <p class="about">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh
+                    euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam,
+                    quis nostrud exerci suscipit lobortis claritatem.</p>
+                <a class="footer-link" href="#">
+                    <p> Read More</p>
+                </a>
             </div>
 
-            <section class="footer-posts">
-                <h2 class="headline"></h2>
+            <section class="block footer-posts">
+                <h2 class="headline">Recent Posts</h2>
                 <ul class="recent-posts">
-                    <li class="post"></li>
-                    <li class="post"></li>
-                    <li class="post"></li>
+                    <li class="post">
+                        <p class="post-data">September 08, 2015</p>
+                        <p class="footer-post">Lorem ipsum dolor sit amet, consectetuer adipiscing elit</p>
+                    </li>
+                    <li class="post">
+                        <p class="post-data">September 08, 2015</p>
+                        <p class="footer-post">Lorem ipsum dolor sit amet, consectetuer adipiscing elit</p>
+                    </li>
+                    <li class="post">
+                        <p class="post-data">September 08, 2015</p>
+                        <p class="footer-post">Lorem ipsum dolor sit amet, consectetuer adipiscing elit</p>
+                    </li>
                 </ul>
 
             </section>
 
-            <section class="twitter">
+            <section class="block twitter">
                 <h2 class="twitter-title"></h2>
                 <ul class="twitter-posts">
                     <li class="post"></li>
@@ -450,14 +476,13 @@
 
             </section>
 
-            <section class="wigets">
+            <section class="block wigets">
                 <h2 class="wiget-title"></h2>
                 <img src="img/widget1.png" alt="wigets">
                 <img src="img/widget2.png" alt="wigets">
                 <img src="img/widget3.png" alt="wigets">
                 <img src="img/widget4.png" alt="wigets">
             </section>
-
         </div>
 
         <div class="bottom">
