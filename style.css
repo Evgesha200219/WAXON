@@ -169,12 +169,12 @@ header {
     margin-top: 39px;
     margin-bottom: 312px;
 }
-.fas {
+.pagin-btn {
     font-size: 10px;
     color: rgba(255, 255, 255, 0.5);
     font-weight: 900;
 }
-.fas:hover {
+.pagin-btn:hover {
     font-weight: 1;
 }
 .slider {
@@ -685,17 +685,25 @@ span {
     justify-content: center;
     margin-bottom: 38px;
 }
-.posts-btn button {
-    border: none;
-    background: none;
+.pagination {
+    fill: #C7B299;
+    transition-duration: 0.4s;
+}
+.pagination:hover {
+    fill: #8C8C8C;
+    cursor: pointer;
+    transform: scale(1.5);
 }
 .left {
+    border-color: transparent;
+    background-color: transparent;
     margin-right: 18px;
 }
-.posts-left,.right {
-    font-size: 22px;
-    color:  #D1D1D1;
+.right {
+    border-color: transparent;
+    background-color: transparent;
 }
+
 /*PARTNERS*/
 .partners {
     background-image: url(img/partners.png);
@@ -711,15 +719,25 @@ span {
 .partners-logo {
     margin-right: 75px;
 }
+.partners-logo:hover {
+    
+  }
+  
+
 /*FOOTER*/
 .footer {
     background: #191919;
 }
 .footer-blocks {
     display: flex;
+    justify-content: space-between;
 }
 .block {
     width: 270px;
+    margin-left: 50px;
+}
+.block:first-child {
+    margin-left: 0;
 }
 .footer-logo {
     display: flex;
@@ -765,7 +783,7 @@ span {
     align-self: center;
 }
 .footer-posts {
-    margin-top: 107px;
+    margin-top: 108px;
 }
 .headline {
     font-size: 24px;
@@ -776,10 +794,7 @@ span {
 .recent-posts {
     list-style: none;
 }
-.post {
-    border-bottom: 1px #242424;
-}
-.post:nth-child(3n+2) {
+.footer-post:nth-child(3n+2) {
     margin-top: 12px;
     margin-bottom: 16px;
 }
@@ -789,8 +804,60 @@ span {
     color: #363636;
     margin-bottom: 6px;
 }
-
-
+.post2-data {
+    font-size: 12px;
+    line-height: 15px;
+    margin-bottom: 6px;
+    color: #FFFFFF;
+}
+.post2 {
+    font-size: 14px;
+    line-height: 17px;
+    color: #C7B299;
+}
+.post {
+    font-size: 14px;
+    line-height: 17px;
+    color: #555555;
+}
+.footer-post2 {
+    color: #C7B299;
+    font-size: 14px;
+    line-height: 17px;
+}
+.twitter {
+    margin-top: 108px;
+}
+.twitter-posts {
+    list-style: none;
+}
+.twitter-link {
+    text-decoration: none;
+    color:  #00BFF3;
+    font-size: 14px;
+    line-height: 17px;
+}
+.twit-post:nth-child(3n+2) {
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+.twit {
+    margin-top: 6px;
+    margin-bottom: 0;
+}
+.bit {
+    text-decoration: none;
+    color: #C7B299;
+}
+.widgets {
+    margin-top: 108px;
+}
+.widget-img {
+    transition-duration: 0.4s;
+}
+.widget-img:hover {
+    transform: scale(0.75)
+}
 
 
 
