@@ -930,6 +930,7 @@ span {
     .menu-links {
         display: none;
         position: absolute;
+        left: -100px;
         background-color:  #FBFAF8;
         min-width: 50px;
         z-index: 1;
@@ -959,7 +960,6 @@ span {
     .menu:hover .menu-links {
         display: block;
     }
-    
     .menu:hover .burger {
         transform: scale(0);
     }
@@ -1116,6 +1116,9 @@ span {
     }
     .header-left,.header-right {
         display: none;
+    }
+    .menu-links {
+        left: -50px;
     }
     .realiz-tetx {
         width: 100%;
