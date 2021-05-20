@@ -155,7 +155,6 @@ header {
 .last-link:hover {
     color:  #C7B299;
 }
-
 .slogan {
     margin-top: 315px;
     width: 569px;
@@ -251,9 +250,6 @@ header {
     fill:  #F1EEE9;
     transition-duration: 0.3s;
 }
-
-
-
 /* WAXON-REALIZ*/
 .waxon-realiz {
     background: #E5E5E5;
@@ -932,14 +928,14 @@ span {
         position: absolute;
         left: -100px;
         background-color:  #FBFAF8;
-        min-width: 50px;
+        width: 150%;
         z-index: 1;
         transition-delay: 0.4s;
         margin-top: 0;
     }
     
     .menu-links a {
-        margin-right: 24px;
+        margin-right: 0;
         font-size: 16px;
         line-height: 17px;
         color: black;
@@ -1161,9 +1157,6 @@ span {
     }
     .partners-img {
         width: 300px;
-    }
-    .partners {
-        background-size: cover;
     }
     .block {
         margin-left: 0;
